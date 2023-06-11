@@ -31,12 +31,14 @@
         >
 
         <ImageView
+            android:id="@+id/phongban"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_phongban_foreground"
             android:layout_marginRight="60dp"/>
 
         <ImageView
+            android:id="@+id/nhanvien"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_nhanvien_foreground"
@@ -51,20 +53,20 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
             android:text="Phong ban"
             android:textColor="@color/red"
-            android:textStyle="bold"
-            android:textSize="40sp"
-            android:layout_marginRight="25dp"/>
+            android:textSize="34sp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
             android:text="Nhan vien"
             android:textColor="@color/blue"
-            android:textStyle="bold"
-            android:textSize="40sp"
-            android:layout_marginLeft="25dp"/>
+            android:textSize="34sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 

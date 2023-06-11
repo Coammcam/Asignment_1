@@ -18,7 +18,7 @@ public class register_interface extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register_interface);
+        setContentView(R.layout.activity_register);
 
         Button btnLogin = findViewById(R.id.btn_login);
         Button btnBack = findViewById(R.id.btn_back);

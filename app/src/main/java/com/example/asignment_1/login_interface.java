@@ -14,7 +14,7 @@ public class login_interface extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_interface);
+        setContentView(R.layout.activity_login);
 
         EditText edtUsername = findViewById(R.id.edt_username);
         EditText edtPassword = findViewById(R.id.edt_password);
