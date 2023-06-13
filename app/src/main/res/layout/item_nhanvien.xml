@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/maNv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ma NV: NV001"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#ff0000"/>
+
+    <TextView
+        android:id="@+id/hoTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Họ tên: Nguyễn Văn B"
+        android:textStyle="bold"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/phongban"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phòng ban: Hành chính"
+        android:textSize="12dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/sua_nhanvien"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_fix"
+            android:layout_marginRight="10sp"/>
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_delete"
+            android:layout_marginLeft="10sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
